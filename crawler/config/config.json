@@ -1,0 +1,44 @@
+{
+  "batch_size": 10,
+  "output_directory": "./data",
+  "log_file": "./logs/crawler.log",
+  "crawlers": {
+    "alza": {
+      "start_urls": ["https://www.alza.cz/pocitace/18852653.htm"],
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36",
+      "max_file_size": 2147483648
+    },
+    "datart": {
+      "start_urls": ["https://www.datart.cz/pc-stolni-pocitace.html"],
+      "user_agent": "WebCrawlerForDatart/1.0",
+      "max_file_size": 2147483648
+    },
+    "planeo": {
+      "start_urls": ["https://www.planeo.cz/pocitace"],
+      "user_agent": "WebCrawlerForPlaneo/1.0",
+      "max_file_size": 2147483648
+    },
+    "stolnipocitace": {
+      "start_urls": [
+        "https://www.stolnipocitace.cz/25-kancelarska-pc",
+        "https://www.stolnipocitace.cz/27-domaci-pc",
+        "https://www.stolnipocitace.cz/585-herni-pc",
+        "https://www.stolnipocitace.cz/22-all-in-one",
+        "https://www.stolnipocitace.cz/26-mini-pc",
+        "https://www.stolnipocitace.cz/28-pracovni-stanice"
+      ],
+      "user_agent": "WebCrawlerForStolnipocitace/1.0",
+      "max_file_size": 2147483648
+    },
+    "pocitarna": {
+      "start_urls": ["https://www.pocitarna.cz/pocitace/"],
+      "user_agent": "WebCrawlerForPocitarna/1.0",
+      "max_file_size": 2147483648
+    },
+    "gigacomputer": {
+      "start_urls": ["https://www.gigacomputer.cz/pocitace/"],
+      "user_agent": "WebCrawlerForGigacomputer/1.0",
+      "max_file_size": 2147483648
+    }
+  }
+}
