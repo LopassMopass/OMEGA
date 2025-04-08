@@ -18,7 +18,7 @@ The OMEGA project focuses on web crawling to collect data from various e-commerc
 ### UML Use Case Diagram
 ```plantuml
 @startuml
-title Use Case Diagram - OMEGA Crawler Project
+title Use Case Diagram - OMEGA Crawler
 
 actor User
 User --> (Configure Crawler)
@@ -34,7 +34,7 @@ The application utilizes a modular crawler structure allowing easy addition of n
 ### UML Class Diagram
 ```plantuml
 @startuml
-title Class Diagram - OMEGA Crawler Project
+title Class Diagram - OMEGA Crawler
 
 class BaseCrawler {
   +start_url: str
