@@ -150,7 +150,11 @@ python gui/src/app.py
 - `numpy`: Numeric computations.
 
 ## My past code
-- `Project_Beta`: Base Crawlers, Dictionary, Config
+- **Project_Beta**: Base Crawlers, Dictionary, Config
+
+## Design and architectural patterns
+- **Template Method Pattern for Crawlers**: Used in `base_crawler.py` 
+- **Singleton Pattern for Configuration Management**: Used in `config_manager.py`
 
 ## What was my inspiration/helper
 - `ChatGPT`: Documentation - [Chat](https://chatgpt.com/g/g-p-6796534fbf108191811f52a63eb58b20-pv/c/67f2e378-9028-800e-a475-4fce81627f1e)
